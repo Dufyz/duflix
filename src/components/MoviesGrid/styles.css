@@ -1,0 +1,17 @@
+.moviesgrid {
+    max-width: 1375px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    display: grid; /* Alterado para grid */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Define as colunas desejadas */
+    gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .moviesgrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,39 @@
+.header {
+    max-width: 1375px;
+    margin: 0 auto;
+    padding: 200px 50px 123px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #191919;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.header-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-search input{
+    background-color: transparent;
+    max-width: 573px;
+    width: 100%;
+    height: 50px;
+    padding: 27px;
+    border-radius: 30px;
+    border: solid 2px #191919;
+    color: #191919;
+    font-size: 20px;
+}
+
+.header-title input::placeholder {
+    color: #191919;
+}
+
+@media (max-width: 900px) {
+    .header {
+        justify-content: center;
+    }
+}
